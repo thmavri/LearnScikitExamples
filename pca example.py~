@@ -16,7 +16,6 @@ for value in pca.explained_variance_ratio_ :
 print cnt
 pca.n_components=cnt
 print(pca.fit(X))
-print('=====Transformed========')
 X_reduced=pca.fit_transform(X)
 print(X_reduced)
 
